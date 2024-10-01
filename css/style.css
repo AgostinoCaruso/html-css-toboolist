@@ -28,9 +28,9 @@
 .blue-background-color{
     background-color: #47ADF1;
 }
-.central-margin-auto{
+/* .central-margin-auto{
     width: 60%;
-}
+} */
 /* font */
 .poppins-regular {
     font-family: "Poppins", sans-serif;
@@ -70,6 +70,7 @@ header{
 /* main */
 #main{
     padding-top: 40px;
+    width: 60%;
 }
 .space-between-top-bottom-pannel{
     padding-top: 2px;
@@ -77,7 +78,7 @@ header{
 }
 .pannel{
     height:100px;
-    width:1000px;
+    width:80%;
     background-color: white;
     border-radius: 1%;
 }
@@ -115,7 +116,7 @@ header{
     height: 30px;
     width:40px;
     background-color: black;
-    border-radius: 15%;
+    border-radius: 50px;
 }
 .editorial{
     background-color: #47ADF1;
