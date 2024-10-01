@@ -4,7 +4,14 @@
     padding:0;
 }
 /* general */
-
+.container{
+    max-width: 1200px;
+    border:2px solid red;
+    margin:0 auto;
+}
+.top-spacing-padding{
+    padding-top: 20px;
+}
 /* background */
 .grey-background-color{
     background-color: #F6F8F9;
@@ -20,7 +27,6 @@
 }
 .central-margin-auto{
     width: 60%;
-    margin:0 auto;
 }
 /* font */
 .poppins-regular {
@@ -33,10 +39,21 @@
     font-weight: 700;
     font-style: normal;
 }
+.bigger-font{
+    font-size: 1.5em;
+}
+.medium-font{
+    font-size: 1.2em;
+}
+.smaller-font{
+    font-size: 0.7em;
+}
+.text-white{
+    color:white;
+}
 /* header */
 header{
     width: 70%;
-    margin: 0 auto;
     padding-left: 100px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -52,7 +69,6 @@ header{
     padding-top: 40px;
 }
 .pannel{
-    margin:0 auto;
     height:100px;
     width:1000px;
     background-color: white;
@@ -63,10 +79,9 @@ header{
 }
 #pannel-bottom{
     padding-top: 20px;
-    height:100px;
+    height:500px;
 }
 .button{
-    
     height:40px;
     width:100px;
     background-color: #47ADF1;
@@ -86,6 +101,21 @@ header{
     background-color: #FFFFFF;
     border: 1px solid black;
 }
+.highlighted-text{
+    height: 40px;
+    width:40px;
+    background-color: black;
+    border-radius: 30%;
+}
+#editorial{
+    background-color: #47ADF1;
+}
+#q1-goals{
+    background-color: #9C72E4;
+}
+#recruiting{
+    background-color: #64C0A9;
+}
 .title-ul{
     padding-left: 40px;
 }
@@ -93,3 +123,5 @@ ul{
     padding-left: 25px;
     list-style: none;
 }
+
+

@@ -12,14 +12,14 @@
 </head>
 <body class="poppins-regular grey-background-color">
     <!-- header -->
-        <header>
+        <header class="container">
             <div id="logo">
                 <h1>Toboolist</h1>
             </div>
         </header>
      <!-- main -->
-        <main id="main" class="central-margin-auto">
-            <div id="pannel-top" class="pannel">
+        <main id="main" class="central-margin-auto container">
+            <div id="pannel-top" class="pannel container">
                 <div id="add-task" class="button">
                     Add Task
                 </div>
@@ -27,12 +27,29 @@
                     Add Section
                 </div>
             </div>
-            <div id="pannel-bottom" class="pannel">
+            <div id="pannel-bottom" class="pannel container">
                 <div class="title-ul">
-                    &cross;New Task
+                    &#9660;<span class="poppins-bold bigger-font">New Task</span>
                     <ul>
-                        <li &cross;>
-                            wow
+                        <li>&check;
+                            <span class="medium-font">Quarterly Newsletter</span> <span class ="highlighted-text text-white smaller-font" id="editorial">Editorial</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="title-ul top-spacing-padding">
+                    &#9660;<span class="poppins-bold bigger-font">Today</span>
+                    <ul>
+                        <li class="top-spacing-padding">&check;
+                            <span class="medium-font">Recruiting blog post</span> <span class ="highlighted-text text-white smaller-font" id="editorial">Editorial</span>
+                        </li>
+                        <li class="top-spacing-padding">&check;
+                            <span class="medium-font">Mobile app launch</span> <span class ="highlighted-text text-white smaller-font" id="q1-goals">Q1 Goals</span>
+                        </li>
+                        <li class="top-spacing-padding">&cross;
+                            <span class="medium-font">Interview John H.</span> <span class ="highlighted-text text-white smaller-font" id="recruiting">Recruiting</span>
+                        </li>
+                        <li class="top-spacing-padding">&check;
+                            <span class="medium-font">Summit update to mobile storefronts</span> <span class ="highlighted-text text-white smaller-font" id="mobile">Mobile</span>
                         </li>
                     </ul>
                 </div>
