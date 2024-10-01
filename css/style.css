@@ -5,12 +5,54 @@
 }
 /* general */
 
-/* color */
-.grey-color{
+/* background */
+.grey-background-color{
     background-color: #F6F8F9;
 }
-.white-color{
+.white-background-color{
     background-color: #FFFFFF;
 }
-
+.black-background-color{
+    background-color: black;
+}
+.central-margin-auto{
+    width: 60%;
+    margin:0 auto;
+}
 /* font */
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+/* main */
+#main{
+    padding-top: 40px;
+}
+.pannel{
+    margin:0 auto;
+    height:1000px;
+    width: 1000px;
+    background-color: #FFFFFF;
+    border-radius: 1%;
+}
+    
+/* header */
+header{
+    width: 70%;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FFFFFF;
+}
+#logo{
+    padding-left: 50px;
+    background-image: url("../img/Logo.png");
+    background-repeat: no-repeat;
+}
