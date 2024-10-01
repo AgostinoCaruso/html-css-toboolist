@@ -71,6 +71,10 @@ header{
 #main{
     padding-top: 40px;
 }
+.space-between-top-bottom-pannel{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 .pannel{
     height:100px;
     width:1000px;
@@ -79,6 +83,10 @@ header{
 }
 #pannel-top{
     height:80px;
+}
+.pannel-top-spacing-padding{
+    padding-top: 20px;
+    padding-left: 70px;
 }
 #pannel-bottom{
     padding-top: 20px;
