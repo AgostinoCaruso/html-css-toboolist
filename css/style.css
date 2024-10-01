@@ -1,7 +1,7 @@
 *{
+    box-sizing: border-box;
     margin:0;
     padding:0;
-    box-sizing: border-box;
 }
 /* general */
 
@@ -14,6 +14,9 @@
 }
 .black-background-color{
     background-color: black;
+}
+.blue-background-color{
+    background-color: #47ADF1;
 }
 .central-margin-auto{
     width: 60%;
@@ -30,18 +33,6 @@
     font-weight: 700;
     font-style: normal;
 }
-/* main */
-#main{
-    padding-top: 40px;
-}
-.pannel{
-    margin:0 auto;
-    height:1000px;
-    width: 1000px;
-    background-color: #FFFFFF;
-    border-radius: 1%;
-}
-    
 /* header */
 header{
     width: 70%;
@@ -55,4 +46,50 @@ header{
     padding-left: 50px;
     background-image: url("../img/Logo.png");
     background-repeat: no-repeat;
+}
+/* main */
+#main{
+    padding-top: 40px;
+}
+.pannel{
+    margin:0 auto;
+    height:100px;
+    width:1000px;
+    background-color: white;
+    border-radius: 1%;
+}
+#pannel-top{
+    height:80px;
+}
+#pannel-bottom{
+    padding-top: 20px;
+    height:100px;
+}
+.button{
+    
+    height:40px;
+    width:100px;
+    background-color: #47ADF1;
+    padding-top: 0px;
+    padding-left: 0px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    border-radius: 10%;
+}
+#add-task{
+    color: white;
+}
+#add-section{
+    width: 125px;
+    color:grey;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+}
+.title-ul{
+    padding-left: 40px;
+}
+ul{
+    padding-left: 25px;
+    list-style: none;
 }
